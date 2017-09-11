@@ -13,6 +13,7 @@
 		21FCF2521F67246D00A82051 /* Sound_Board.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 21FCF2501F67246D00A82051 /* Sound_Board.xcdatamodeld */; };
 		21FCF2541F67246D00A82051 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21FCF2531F67246D00A82051 /* Assets.xcassets */; };
 		21FCF2571F67246D00A82051 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21FCF2551F67246D00A82051 /* LaunchScreen.storyboard */; };
+		21FCF25F1F6729D300A82051 /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21FCF25E1F6729D300A82051 /* SoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		21FCF2531F67246D00A82051 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21FCF2561F67246D00A82051 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		21FCF2581F67246D00A82051 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21FCF25E1F6729D300A82051 /* SoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SoundViewController.swift; path = ../../../../../Applications/SoundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				21FCF2491F67246D00A82051 /* AppDelegate.swift */,
 				21FCF24B1F67246D00A82051 /* ViewController.swift */,
+				21FCF25E1F6729D300A82051 /* SoundViewController.swift */,
 				21FCF24D1F67246D00A82051 /* Main.storyboard */,
 				21FCF2531F67246D00A82051 /* Assets.xcassets */,
 				21FCF2551F67246D00A82051 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21FCF25F1F6729D300A82051 /* SoundViewController.swift in Sources */,
 				21FCF2521F67246D00A82051 /* Sound_Board.xcdatamodeld in Sources */,
 				21FCF24C1F67246D00A82051 /* ViewController.swift in Sources */,
 				21FCF24A1F67246D00A82051 /* AppDelegate.swift in Sources */,
